@@ -296,7 +296,7 @@ bool Student::ApplyOrder()
 void Student::ShowMyOrder()
 {
 	//用循环取出存在OrderLog对象里Map容器里用户为自己的内容//
-	for (int i = 1; i <= orderlog.Map_size; i++)
+	for (int i = 1; i <= orderlog.Map_size; ++i)
 	{
 		//先判断是否是自己的学号与姓名
 		if (orderlog.M_AllOrder[i]["StudentName"] == this->UserName &&
@@ -312,6 +312,7 @@ void Student::ShowMyOrder()
 			cout << endl;
 		}
 	}
+	cout << "*输出完成*" << endl;
 }
 
 //显示所有人的预约
@@ -324,9 +325,10 @@ void Student::ShowAllOreder()
 		for (auto it2 : it.second)
 		{
 			cout << it2.first << ':' << it2.second<<' ';
-		}cout << endl;
+		}
+		cout << endl;
 	}
-	
+	cout << "*输出完成*" << endl;
 }
 
 //取消自己的预约

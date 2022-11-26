@@ -1,13 +1,18 @@
 #pragma once
 #include<iostream>
 #include"identity.h"
+#include"Order.h"
 #include"Screen.h"
+#include<sstream>
 using namespace std;
 
 class Teacher :public Identity
 {
 public:
 	int Teacher_ID;
+
+	OrderLog orderlog;
+
 	Teacher();//无参构造
 
 	Teacher(int empid, string username, string password);//有参构造

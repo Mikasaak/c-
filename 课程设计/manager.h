@@ -7,6 +7,7 @@
 #include<algorithm>
 #include"student.h"
 #include"teacher.h"
+#include"Order.h"
 #include"computerRoom.h"
 using namespace std;
 

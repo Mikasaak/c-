@@ -176,8 +176,8 @@ OrderLog::OrderLog()
 		{
 			key = status.substr(0, pos);
 			value = status.substr(pos + 1, status.size() - pos - 1);
-			if (value == "Canceled")
-				V_flag = false;
+			if (value == "Canceled"||value == "Failed")//如果该条预约记录的状态是 取消 的或是 预约失败 的
+				V_flag = false;//把V_flag标志置为假//表示不加入V_DateAndTime容器之中
 			m.insert(make_pair(key, value));
 		}
 		if(V_flag==true)
@@ -336,11 +336,11 @@ void OrderLog::UpdateOrder(const char type)
 			{
 				key = status.substr(0, pos);
 				value = status.substr(pos + 1, status.size() - pos - 1);
-				if (value == "Canceled")
-					V_flag = false;
+				if (value == "Canceled"||value == "Failed")//如果该条预约记录的状态是 取消 的或是 预约失败 的
+					V_flag = false;//把V_flag标志置为假//表示不加入V_DateAndTime容器之中
 				m.insert(make_pair(key, value));
 			}
-			if (V_flag == true)
+			if (V_flag == true)//
 			{
 				Date D(year, mouth, day);//用参数初始化Date
 				Time T(beginHour, beginMin, endHour, endMin);//用参数初始化Time

@@ -16,34 +16,7 @@ using namespace std;
 
 int main()
 {
-	//auto tmpe = Manager().Creat_ComputerRoom_Vector();
-	//cout << tmpe.first << " " << tmpe.second << endl;
-	//system("pause");
-	/*Date a(2012, 12, 13);
-	cout << a.Day << a.Month << a.Year << endl;
-	system("pause");*/
-	OrderLog orderlog;
-	system("pause");
-	//用循环取出存在OrderLog对象里Map容器里的内容//
-	/*for (auto it : orderlog.M_AllOrder)
-	{
-		cout << "第" << it.first << "条:";
-		for (auto it2 : it.second)
-		{
-			cout << it2.first << ':' << it2.second << ' ';
-		}cout << endl;
-	}
-	system("pause");
-	orderlog.UpdateOrder('2');
-	for (auto it : orderlog.M_AllOrder)
-	{
-		cout << "第" << it.first << "条:";
-		for (auto it2 : it.second)
-		{
-			cout << it2.first << ':' << it2.second << ' ';
-		}cout << endl;
-	}
-	system("pause");*/
+	
 	while (true)
 	{
 		

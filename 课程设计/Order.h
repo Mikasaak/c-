@@ -47,5 +47,4 @@ public:
 
 	void UpdateOrder(const char type);//更新预约记录//当type为1的时候是用文本来重新更新M_AllOrder和V_DateAndTime
 										//当type为1的时候是用M_AllOrder来重新更新文本
-	bool Is_meet(const Time& t);//判断时间是否相交
 };

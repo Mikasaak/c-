@@ -40,7 +40,9 @@ void Manager_Operat_Screen(const string username)
 	cout << "\t*\t\t\t\t\t*\n";
 	cout << "\t*\t\t 3.查看机房         \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
-	cout << "\t*\t\t 4.清空预约         \t*\n";
+	cout << "\t*\t\t 4.显示所有预约     \t*\n";
+	cout << "\t*\t\t\t\t\t*\n";
+	cout << "\t*\t\t 5.清空预约         \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
 	cout << "\t*\t\t *.注销并返回上一级 \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
@@ -89,8 +91,6 @@ void Teacher_Operat_Screen(const string username)
 	cout << "\t*\t\t 1.查看所有预约     \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
 	cout << "\t*\t\t 2.审核预约         \t*\n";
-	cout << "\t*\t\t\t\t\t*\n";
-	cout << "\t*\t\t 3.查看学生账号     \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
 	cout << "\t*\t\t *.注销并返回上一级 \t*\n";
 	cout << "\t*\t\t\t\t\t*\n";
@@ -271,6 +271,9 @@ void Operat_Lev_Showing(const char userType,const int operatType)
 			cout << "********************进行查看机房信息的操作********************\n";
 
 		if (operatType == 4)
+			cout << "********************进行显示所有预约的操作********************\n";
+
+		if (operatType == 5)
 			cout << "**********************进行清空预约的操作**********************\n";
 	}
 

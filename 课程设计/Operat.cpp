@@ -31,8 +31,13 @@ void Manage_Mainmenu_Operat(Identity*& manager)//管理员菜单中的操作逻辑
 			user->Show_ComputerRoom_info();
 
 		}
+		if (select == '4')//进行显示所有预约的操作
+		{
+			Operat_Lev_Showing('M', 4);//显示操作层（清空预约）
+			user->Show_All_Oreder();
+		}
 
-		if (select == '4')//进行清空预约的操作
+		if (select == '5')//进行清空预约的操作
 		{
 			Operat_Lev_Showing('M', 4);//显示操作层（清空预约）
 			user->Clean_Order();
@@ -123,7 +128,6 @@ void Teacher_Mainmenu_Operat(Identity*& teacher)
 		{
 			Operat_Lev_Showing('T',1);//显示操作层（显示所有人的预约）
 			user->ShowAllOreder();
-			system("pause");
 
 		}
 
@@ -131,14 +135,6 @@ void Teacher_Mainmenu_Operat(Identity*& teacher)
 		{
 			Operat_Lev_Showing('T', 2);//显示操作层（审核申请人的预约）
 			user->AuditOrder();
-			system("pause");
-
-		}
-
-		if (select == '3') //进行查看学生账号的操作
-		{
-			Operat_Lev_Showing('T', 3);//显示操作层（查看学生账号）
-			system("pause");
 
 		}
 

@@ -288,7 +288,18 @@ void Manager::Show_ComputerRoom_info()//显示机房信息
 //显示所有人的预约
 void Manager::Show_All_Oreder()
 {
-
+	OrderLog orderlog;
+	//用循环取出存在OrderLog对象里Map容器里的内容//
+	for (auto it : orderlog.M_AllOrder)
+	{
+		cout << "第" << it.first << "条:";
+		for (auto it2 : it.second)
+		{
+			cout << it2.first << ':' << it2.second << ' ';
+		}cout << endl;
+	}
+	cout << "*输出完成*" << endl;
+	system("pause");
 }
 
 //清空预约记录
