@@ -37,7 +37,7 @@ public:
 class OrderLog
 {
 public:
-	vector<tuple<string,Date,Time>> V_DateAndTime;
+	vector<tuple<string,Date,Time>> V_DateAndTime;//记录预约状态为"Passed"或"Applying"的预约记录的机房编号和日期与时间段的容器
 	//记录所有预约信息的容器，
 	map<int, unordered_map<string, string>>M_AllOrder;
 	

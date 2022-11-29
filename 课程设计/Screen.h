@@ -39,3 +39,5 @@ void Apply_Success_Prompt();//申请预约成功的提示
 void Apply_Fail_Prompt();//申请预约失败的提示
 
 void Cancel_Success_Prompt();//取消预约成功的提示
+
+void Cancel_Operat_Prompt();//取消操作成功的提示

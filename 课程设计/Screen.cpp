@@ -347,3 +347,12 @@ void Cancel_Success_Prompt()
 	cout << endl;
 	system("pause");
 }
+
+//取消操作成功的提示
+void Cancel_Operat_Prompt()
+{
+	cout << endl;
+	cout << "------------------------取消操作成功！------------------------\n";
+	cout << endl;
+	system("pause");
+}

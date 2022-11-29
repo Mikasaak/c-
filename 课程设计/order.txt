@@ -4,6 +4,9 @@ ComputerRoomID:A401 Date:2022/10/22 Time:12:22--12:33 StudentName:1 StudentID:1 
 ComputerRoomID:B308 Date:2022/1/22 Time:12:22--13:22 StudentName:yp StudentID:123 Status:Canceled 
 ComputerRoomID:A401 Date:2022/12/22 Time:16:00--18:00 StudentName:1 StudentID:1 Status:Passed 
 ComputerRoomID:B308 Date:2022/1/22 Time:12:22--13:22 StudentName:yp StudentID:123 Status:Applying 
-ComputerRoomID:A403 Date:2022/10/13 Time:12:00--13:00 StudentName:1 StudentID:1 Status:Applying 
+ComputerRoomID:A403 Date:2022/10/13 Time:12:00--13:00 StudentName:1 StudentID:1 Status:Canceled 
 ComputerRoomID:B308 Date:2022/1/22 Time:12:22--13:22 StudentName:1 StudentID:1 Status:Canceled 
 ComputerRoomID:B308 Date:2022/1/22 Time:12:22--13:22 StudentName:yp StudentID:123 Status:Applying 
+ComputerRoomID:A401 Date:2022/10/23 Time:13:00--14:00 StudentName:1 StudentID:1 Status:Canceled 
+ComputerRoomID:A402 Date:2022/12/11 Time:15:00--16:00 StudentName:wwx StudentID:2021400489 Status:Canceled 
+ComputerRoomID:B308 Date:2022/10/23 Time:16:00--18:00 StudentName:1 StudentID:1 Status:Apply 

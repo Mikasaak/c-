@@ -194,25 +194,25 @@ OrderLog::OrderLog()
 		this->M_AllOrder.insert(make_pair(this->Map_size, m));
 	}
 	ifs.close();
-	//测试vector
-	/*for (auto it: V_DateAndTime)
-	{
-		cout << "com_id:" << get<0>(it) << endl;
-		cout << "Date:" << get<1>(it) << endl;
-		cout << "Time:" << get<2>(it) << endl;
-	}*/
-
-	//测试map
-	/*for (auto it :M_AllOrder)
-	{
-		cout << "条数为" << it.first << "value = " << endl;
-		for (auto mit :it.second)
-		{
-			cout << mit.first << " " << mit.second << ' ';
-		}
-		cout << endl;
-	}*/
 }
+//测试vector
+/*for (auto it: V_DateAndTime)
+{
+	cout << "com_id:" << get<0>(it) << endl;
+	cout << "Date:" << get<1>(it) << endl;
+	cout << "Time:" << get<2>(it) << endl;
+}*/
+
+//测试map
+/*for (auto it :M_AllOrder)
+{
+	cout << "条数为" << it.first << "value = " << endl;
+	for (auto mit :it.second)
+	{
+		cout << mit.first << " " << mit.second << ' ';
+	}
+	cout << endl;
+}*/
 
 //更新预约记录//当type为1的时候是用文本来重新更新M_AllOrder和V_DateAndTime
 			//当type为2的时候是用M_AllOrder来重新更新文本

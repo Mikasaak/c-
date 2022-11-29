@@ -12,14 +12,10 @@
 #include"Operat.h"
 #include"Order.h"
 using namespace std;
-
-
 int main()
 {
-	
 	while (true)
 	{
-		
 		Main_Operat_Screen();
 		char select = 0;//接受用户的输入选择
 		cin >> select;//按照第一个读到的字符判断
@@ -43,7 +39,6 @@ int main()
 					Student_Mainmenu_Operat(user); //进行Student的主菜单的操作//各种操作选择及操作的进行在函数内进行
 			}
 			break;
-			
 		}
 		case '2'://用户身份为老师
 		{
@@ -82,7 +77,6 @@ int main()
 
 				if (user != NULL)
 					Manage_Mainmenu_Operat(user); //进行mananger的主菜单的操作//各种操作选择及操作的进行在函数内进行
-
 			}
 			break;
 
@@ -101,7 +95,6 @@ int main()
 			system("pause");
 			system("cls");
 			break;
-
 		}		
 	}
 	system("pause");

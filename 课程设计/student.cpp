@@ -331,7 +331,7 @@ void Student::ShowAllOreder()
 	cout << "*输出完成*" << endl;
 }
 
-//取消自己的预约
+//取消自己申请中的预约
 void Student::CancalMyOrder()
 {
 	vector<int>sub;
@@ -341,7 +341,7 @@ void Student::CancalMyOrder()
 		//先判断是否是自己的学号与姓名
 		if (orderlog.M_AllOrder[i]["StudentName"] == this->UserName
 			&& orderlog.M_AllOrder[i]["StudentID"] == to_string(this->Student_ID)
-			&& orderlog.M_AllOrder[i]["Status"] != "Canceled")
+			&& orderlog.M_AllOrder[i]["Status"] == "Applying")
 		{
 			sub.push_back(i);
 			//依次读出map容器的内容
@@ -364,6 +364,7 @@ void Student::CancalMyOrder()
 		cin >> number;
 		if (find(number.begin(), number.end(), '*') != number.end())//若输入中有*  则中断取消预约操作
 		{
+			Cancel_Operat_Prompt();
 			return;
 		}
 		//若没有 * 则用string转换为int 进行下一步判断

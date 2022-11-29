@@ -95,7 +95,7 @@ void Student_Mainmenu_Operat(Identity*& student)
 		{
 			Operat_Lev_Showing('S', 4);//显示操作层（取消自己的预约）
 			user->CancalMyOrder();
-			system("pause");
+			//system("pause");
 		}
 
 		if (select == '*')//进行返回注销并上一级的操作
