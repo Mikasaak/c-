@@ -1,4 +1,5 @@
-﻿  manager.cpp
+﻿  computerRoom.cpp
+  manager.cpp
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Screen.h(1,1): warning C4828: 文件包含在偏移 0x4fe 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\manager.cpp(26,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\manager.cpp(39,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
@@ -29,6 +30,8 @@ C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Order.cpp(299,29): warn
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Order.cpp(318,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Order.cpp(326,25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Order.cpp(334,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Screen.cpp
+C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Screen.h(1,1): warning C4828: 文件包含在偏移 0x4fe 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
   student.cpp
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\student.cpp(1,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
 C:\Users\mi'ka'sa\source\repos\课程设计\课程设计\Screen.h(1,1): warning C4828: 文件包含在偏移 0x4fe 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
